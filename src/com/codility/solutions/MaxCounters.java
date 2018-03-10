@@ -1,9 +1,16 @@
 package com.codility.solutions;
 
-// Credit Goes To dominik-sze
-// https://github.com/dominik-sze/Codility
+/**
+ * https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/
+ */
 
 class MaxCounters {
+	
+	/**
+	 * Credit Goes To dominik-sze
+	 * https://github.com/dominik-sze/Codility
+	 */
+	
     public int[] solution(int N, int[] A) {
         int[] counters = new int[N];
         int max = 0;

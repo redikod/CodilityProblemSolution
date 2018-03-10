@@ -1,9 +1,16 @@
 package com.codility.solutions;
 
-// Credit Goes To dominik-sze
-// https://github.com/dominik-sze/Codility
+/**
+ * https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
+ */
 
 class BinaryGap {
+
+	/**
+	 * Credit Goes To dominik-sze
+	 * https://github.com/dominik-sze/Codility
+	 */
+	
     public int solution(int N) {
         String binary = Integer.toBinaryString(N);
         int i = binary.length()-1;

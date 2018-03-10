@@ -1,11 +1,16 @@
 package com.codility.solutions;
 
-// Credit Goes To dominik-sze
-// https://github.com/dominik-sze/Codility
+// 
+// 
 
 import java.math.*;
 
 class Ladder {
+	
+	/**
+	 * Credit Goes To dominik-sze
+	 * https://github.com/dominik-sze/Codility
+	 */
     public int[] solution(int[] A, int[] B) {
         int N = A.length;
         int[] L = new int[N];

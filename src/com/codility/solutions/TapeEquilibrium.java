@@ -1,11 +1,18 @@
 package com.codility.solutions;
 
-// Credit Goes To dominik-sze
-// https://github.com/dominik-sze/Codility
-
 import java.math.*;
 
+/**
+ * https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
+ */
+
 class TapeEquilibrium {
+	
+	/**
+	 * Credit Goes To dominik-sze
+	 * https://github.com/dominik-sze/Codility
+	 */
+	
     public int solution(int[] A) {
         int leftSum = 0;
         int rightSum = 0;

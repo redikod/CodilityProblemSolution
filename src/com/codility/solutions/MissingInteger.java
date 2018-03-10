@@ -1,9 +1,15 @@
 package com.codility.solutions;
 
-// Credit Goes To dominik-sze
-// https://github.com/dominik-sze/Codility
+/**
+ * https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+ */
 
 class MissingInteger {
+	
+	/**
+	 * Credit Goes To dominik-sze
+	 * https://github.com/dominik-sze/Codility
+	 */
     public int solution(int[] A) {
         int tmp;
         int[] sorted = new int[A.length];

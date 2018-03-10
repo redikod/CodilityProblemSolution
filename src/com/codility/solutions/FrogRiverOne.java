@@ -1,9 +1,17 @@
 package com.codility.solutions;
 
-// Credit Goes To dominik-sze
-// https://github.com/dominik-sze/Codility
+/**
+ * https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
+ */
 
-class FrogRiverOne {
+class FrogRiverOne 
+{
+	
+	/**
+	 * Credit Goes To dominik-sze
+	 * https://github.com/dominik-sze/Codility
+	 */
+	
     public int solution(int X, int[] A) {
         int[] s = new int[X+1];
         int jumps = X;

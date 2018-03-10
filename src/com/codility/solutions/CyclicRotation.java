@@ -1,9 +1,16 @@
 package com.codility.solutions;
 
-// Credit Goes To Mickey0521
-// https://github.com/Mickey0521/Codility/blob/master/CyclicRotation.java
+/**
+ * https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
+ */
 
 class CyclicRotation {
+	
+	/**
+	 * Credit Goes To Mickey0521
+	 * https://github.com/Mickey0521/Codility/blob/master/CyclicRotation.java
+	 */
+	
     public int[] solution(int[] A, int K) {
         // write your code in Java SE 8
         
