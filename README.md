@@ -1,3 +1,5 @@
 # Codility Problem Solution
 
-Code has been copied from https://github.com/dominik-sze/Codility
+Code credit goes to:
+- https://github.com/dominik-sze/Codility
+- https://github.com/Mickey0521/Codility
